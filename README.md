@@ -31,4 +31,4 @@ previous campaign (numeric, -1 means client was not previously contacted).
 • y: Has the client subscribed a term deposit? (binary: "yes","no"). 
 p.s: the name of your columns should be exactly like how these ones then the data type same and lastly the categories seen are the categories in the dashboard.
 The python script for the dashboard will also be provided here in this bank mareting campaign repository.
-The link to the dashboard web app is : 
+The link to the dashboard web app is : https://bank-marketing-campaign-d4xkkpt72kxxukphkjp8xx.streamlit.app/
