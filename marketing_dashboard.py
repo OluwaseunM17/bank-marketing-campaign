@@ -1,14 +1,3 @@
-import subprocess
-import sys
-
-try:
-    import plotly
-except ImportError:
-    print("Plotly not found. Installing...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "plotly"])
-    print("Plotly installed.")
-    import plotly
-
 # Importing Libraries
 import os
 import streamlit as st
