@@ -1,3 +1,6 @@
+import pip
+pip.main(['install', 'plotly'])
+
 # Importing Libraries
 import os
 import streamlit as st
