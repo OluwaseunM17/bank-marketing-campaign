@@ -15,7 +15,7 @@ if fl is not None:
     df = pd.read_csv(filename)
 else:
     os.chdir(r"C:\\Users\\hp\\Downloads")
-    df = pd.read_csv("C:\\Users\\hp\\Downloads\\marketing.csv")
+    df = pd.read_csv("marketing.csv")
 month_order = ['jan', 'feb', 'mar', 'apr', 'may', 'jun',
                'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
 df['month'] = pd.Categorical(df['month'], categories=month_order, ordered=True)
