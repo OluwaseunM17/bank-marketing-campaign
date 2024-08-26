@@ -29,6 +29,6 @@ previous campaign (numeric, -1 means client was not previously contacted).
 • poutcome: Outcome of the previous marketing campaign (categorical: 
 "unknown","other","failure","success"). 
 • y: Has the client subscribed a term deposit? (binary: "yes","no"). 
-p.s: the name of your columns should be exactly like how these ones then the data type same and lastly the categories seen are the categories in the dashboard.
+p.s: the name of your columns should be exactly like how these ones then the data type same and lastly the categories seen are the categories in the dashboard. also the months category shhould be written exactly as seen if another dataset is to be used. Lastly please for those using datasets different from the original make sure the datset is clean and as stated above.
 The python script for the dashboard will also be provided here in this bank mareting campaign repository.
 The link to the dashboard web app is : https://bank-marketing-campaign-d4xkkpt72kxxukphkjp8xx.streamlit.app/
